@@ -5,7 +5,9 @@ services:
     image: "postgres:9.5"
     volumes:
       - postgres:/var/lib/postgresql/data
-
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
   app:
     depends_on:
       - "postgres"
