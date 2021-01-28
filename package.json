@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "tether": "^1.4.7"
   }
 }
